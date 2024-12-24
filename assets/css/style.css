@@ -1,0 +1,29 @@
+body{
+    background-color: #f1f1f1;
+}
+section, .container{
+    background-color: #ffffff;
+}
+nav {
+    box-shadow: 2px 2px 6px #0005;
+    background-color: #266292;
+}
+a.nav-link{
+    color: #ffffff;
+}
+
+a.nav-link:hover{
+    color: #e2e2e2;
+}
+
+img{
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px #0005;
+}
+img:hover {
+    opacity: 0.8;
+}
+
+.space{
+    height: 100px;
+}
