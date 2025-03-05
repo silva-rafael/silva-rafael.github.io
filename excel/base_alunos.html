@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base de Dados de Alunos</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Base de Dados de Alunos</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Matrícula</th>
+                <th>Turma</th>
+                <th>Série</th>
+                <th>Data de Nascimento</th>
+                <th>Responsável</th>
+                <th>Telefone do Responsável</th>
+                <th>E-mail</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Maria Clara Silva</td>
+                <td>20230001</td>
+                <td>A</td>
+                <td>6º Ano</td>
+                <td>2010-05-12</td>
+                <td>José Silva</td>
+                <td>(11) 98765-4321</td>
+                <td>mariaclara.silva@escola.com</td>
+                <td>Ativo</td>
+            </tr>
+            <tr>
+                <td>João Pedro Souza</td>
+                <td>20230002</td>
+                <td>B</td>
+                <td>7º Ano</td>
+                <td>2009-08-22</td>
+                <td>Maria Souza</td>
+                <td>(21) 99876-5432</td>
+                <td>joaopedro.souza@escola.com</td>
+                <td>Ativo</td>
+            </tr>
+            <tr>
+                <td>Ana Beatriz Almeida</td>
+                <td>20230003</td>
+                <td>C</td>
+                <td>8º Ano</td>
+                <td>2008-11-10</td>
+                <td>Carlos Almeida</td>
+                <td>(31) 98765-1234</td>
+                <td>anabeatriz.almeida@escola.com</td>
+                <td>Ativo</td>
+            </tr>
+            <tr>
+                <td>Pedro Henrique Oliveira</td>
+                <td>20230004</td>
+                <td>A</td>
+                <td>9º Ano</td>
+                <td>2007-03-15</td>
+                <td>Fernanda Oliveira</td>
+                <td>(41) 99988-7766</td>
+                <td>pedrohenrique.oliveira@escola.com</td>
+                <td>Ativo</td>
+            </tr>
+            <tr>
+                <td>Gabriela Santos</td>
+                <td>20230005</td>
+                <td>B</td>
+                <td>1º Ano Ensino Médio</td>
+                <td>2006-07-22</td>
+                <td>Ricardo Santos</td>
+                <td>(51) 98877-6655</td>
+                <td>gabriela.santos@escola.com</td>
+                <td>Ativo</td>
+            </tr>
+            <tr>
+                <td>Lucas Gabriel Lima</td>
+                <td>20230006</td>
+                <td>C</td>
+                <td>2º Ano Ensino Médio</td>
+                <td>2005-09-18</td>
+                <td>Juliana Lima</td>
+                <td>(61) 99911-2233</td>
+                <td>lucasgabriel.lima@escola.com</td>
+                <td>Ativo</td>
+            </tr>
+            <tr>
+                <td>Isabela Rodrigues</td>
+                <td>20230007</td>
+                <td>A</td>
+                <td>3º Ano Ensino Médio</td>
+                <td>2004-12-10</td>
+                <td>Roberto Rodrigues</td>
+                <td>(71) 98765-9876</td>
+                <td>isabela.rodrigues@escola.com</td>
+                <td>Ativo</td>
+            </tr>
+            <tr>
+                <td>Enzo Miguel Costa</td>
+                <td>20230008</td>
+                <td>B</td>
+                <td>5º Ano</td>
+                <td>2011-02-14</td>
+                <td>Lúcia Costa</td>
+                <td>(81) 99999-8888</td>
+                <td>enzomiguel.costa@escola.com</td>
+                <td>Ativo</td>
+            </tr>
+            <tr>
+                <td>Sophia Fernandes</td>
+                <td>20230009</td>
+                <td>C</td>
+                <td>6º Ano</td>
+                <td>2010-04-30</td>
+                <td>Antônio Fernandes</td>
+                <td>(91) 98888-7777</td>
+                <td>sophia.fernandes@escola.com</td>
+                <td>Ativo</td>
+            </tr>
+            <tr>
+                <td>Gustavo Henrique Pereira</td>
+                <td>20230010</td>
+                <td>A</td>
+                <td>7º Ano</td>
+                <td>2009-06-25</td>
+                <td>Carla Pereira</td>
+                <td>(12) 98765-4321</td>
+                <td>gustavohenrique.pereira@escola.com</td>
+                <td>Ativo</td>
+            </tr>
+            <!-- Repetir mais alunos até completar 50 -->
+            <tr>
+                <td>Manuela Oliveira</td>
+                <td>20230011</td>
+                <td>B</td>
+                <td>8º Ano</td>
+                <td>2008-09-12</td>
+                <td>Paulo Oliveira</td>
+                <td>(22) 99999-1111</td>
+                <td>manuela.oliveira@escola.com</td>
+                <td>Ativo</td>
+            </tr>
+            <tr>
+                <td>Davi Lucas Martins</td>
+                <td>20230012</td>
+                <td>C</td>
+                <td>9º Ano</td>
+                <td>2007-11-03</td>
+                <td>Renata Martins</td>
+                <td>(32) 98888-2222</td>
+                <td>davilucas.martins@escola.com</td>
+                <td>Ativo</td>
+            </tr>
+            <tr>
+                <td>Laura Beatriz Gomes</td>
+                <td>20230013</td>
+                <td>A</td>
+                <td>1º Ano Ensino Médio</td>
+                <td>2006-02-14</td>
+                <td>André Gomes</td>
+                <td>(42) 97777-3333</td>
+                <td>laurabeatriz.gomes@escola.com</td>
+                <td>Ativo</td>
+            </tr>
+            <tr>
+                <td>Arthur Miguel Carvalho</td>
+                <td>20230014</td>
+                <td>B</td>
+                <td>2º Ano Ensino Médio</td>
+                <td>2005-07-20</td>
+                <td>Patrícia Carvalho</td>
+                <td>(52) 96666-4444</td>
+                <td>arthurmiguel.carvalho@escola.com</td>
+                <td>Ativo</td>
+            </tr>
+            <tr>
+                <td>Helena Sousa</td>
+                <td>20230015</td>
+                <td>C</td>
+                <td>3º Ano Ensino Médio</td>
+                <td>2004-12-01</td>
+                <td>Rafael Sousa</td>
+                <td>(62) 95555-6666</td>
+                <td>helena.sousa@escola.com</td>
+                <td>Ativo</td>
+            </tr>
+            <tr>
+                <td>Bernardo Lima</td>
+                <td>20230016</td>
+                <td>A</td>
+                <td>5º Ano</td>
+                <td>2011-05-15</td>
+                <td>Cláudia Lima</td>
+                <td>(72) 94444-7777</td>
+                <td>bernardo.lima@escola.com</td>
+                <td>Inativo</td>
+            </tr>
+            <tr>
+                <td>Valentina Costa</td>
+                <td>20230017</td>
+                <td>B</td>
+                <td>6º Ano</td>
+                <td>2010-03-10</td>
+                <td>Diego Costa</td>
+                <td>(82) 93333-8888</td>
+                <td>valentina.costa@escola.com</td>
+                <td>Ativo</td>
+            </tr>
+            <tr>
+                <td>Samuel Alves</td>
+                <td>20230018</td>
+                <td>C</td>
+                <td>7º Ano</td>
+                <td>2009-06-25</td>
+                <td>Bruna Alves</td>
+                <td>(92) 92222-9999</td>
+                <td>samuel.alves@escola.com</td>
+                <td>Ativo</td>
+            </tr>
+            <tr>
+                <td>Miguel Pereira</td>
+                <td>20230019</td>
+                <td>A</td>
+                <td>8º Ano</td>
+                <td>2008-08-18</td>
+                <td>André Pereira</td>
+                <td>(13) 91111-2222</td>
+                <td>miguel.pereira@escola.com</td>
+                <td>Ativo</td>
+            </tr>
+            <tr>
+                <td>Isadora Carvalho</td>
+                <td>20230020</td>
+                <td>B</td>
+                <td>9º Ano</td>
+                <td>2007-04-05</td>
+                <td>Carolina Carvalho</td>
+                <td>(23) 93333-4444</td>
+                <td>isadora.carvalho@escola.com</td>
+                <td>Ativo</td>
+            </tr>
+            <!-- Continuar adicionando alunos até completar 50 -->
+        </tbody>
+    </table>
+</body>
+</html>
